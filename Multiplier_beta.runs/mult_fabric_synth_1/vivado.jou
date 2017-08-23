@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Mar 10 17:56:46 2017
+# Process ID: 2812
+# Current directory: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/mult_fabric_synth_1
+# Command line: vivado -log mult_fabric.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_fabric.tcl
+# Log file: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/mult_fabric_synth_1/mult_fabric.vds
+# Journal file: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/mult_fabric_synth_1/vivado.jou
+#-----------------------------------------------------------
+source mult_fabric.tcl -notrace

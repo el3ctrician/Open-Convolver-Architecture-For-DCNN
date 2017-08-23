@@ -1,0 +1,122 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.sim/sim_1/impl/timing/fullSimu_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dreg
+INFO: [VRFC 10-311] analyzing module Dreg_0
+INFO: [VRFC 10-311] analyzing module Dreg_1
+INFO: [VRFC 10-311] analyzing module Dreg_10
+INFO: [VRFC 10-311] analyzing module Dreg_11
+INFO: [VRFC 10-311] analyzing module Dreg_12
+INFO: [VRFC 10-311] analyzing module Dreg_13
+INFO: [VRFC 10-311] analyzing module Dreg_14
+INFO: [VRFC 10-311] analyzing module Dreg_15
+INFO: [VRFC 10-311] analyzing module Dreg_16
+INFO: [VRFC 10-311] analyzing module Dreg_2
+INFO: [VRFC 10-311] analyzing module Dreg_3
+INFO: [VRFC 10-311] analyzing module Dreg_4
+INFO: [VRFC 10-311] analyzing module Dreg_5
+INFO: [VRFC 10-311] analyzing module Dreg_6
+INFO: [VRFC 10-311] analyzing module Dreg_7
+INFO: [VRFC 10-311] analyzing module Dreg_8
+INFO: [VRFC 10-311] analyzing module Dreg_9
+INFO: [VRFC 10-311] analyzing module Dreg__parameterized18
+INFO: [VRFC 10-311] analyzing module Dreg__parameterized20
+INFO: [VRFC 10-311] analyzing module chip
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-311] analyzing module convolution
+INFO: [VRFC 10-311] analyzing module fabricAdder
+INFO: [VRFC 10-311] analyzing module fabric_comp
+INFO: [VRFC 10-311] analyzing module fabric_comp_25
+INFO: [VRFC 10-311] analyzing module fabric_comp_26
+INFO: [VRFC 10-311] analyzing module fabric_comp_27
+INFO: [VRFC 10-311] analyzing module fabric_comp_28
+INFO: [VRFC 10-311] analyzing module fabric_comp_29
+INFO: [VRFC 10-311] analyzing module fabric_comp_30
+INFO: [VRFC 10-311] analyzing module fabric_comp_31
+INFO: [VRFC 10-311] analyzing module fabric_mult
+INFO: [VRFC 10-311] analyzing module fabric_mult_17
+INFO: [VRFC 10-311] analyzing module fabric_mult_18
+INFO: [VRFC 10-311] analyzing module fabric_mult_19
+INFO: [VRFC 10-311] analyzing module fabric_mult_20
+INFO: [VRFC 10-311] analyzing module fabric_mult_21
+INFO: [VRFC 10-311] analyzing module fabric_mult_22
+INFO: [VRFC 10-311] analyzing module fabric_mult_23
+INFO: [VRFC 10-311] analyzing module fabric_mult_24
+INFO: [VRFC 10-311] analyzing module genOR__parameterized2
+INFO: [VRFC 10-311] analyzing module genOR__parameterized4
+INFO: [VRFC 10-311] analyzing module lfsr
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized1
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized11
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized13
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized15
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized17
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized19
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized21
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized23
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized25
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized27
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized29
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized3
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized31
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized33
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized5
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized7
+INFO: [VRFC 10-311] analyzing module lfsr__parameterized9
+INFO: [VRFC 10-311] analyzing module mult_fabric
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD13
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD17
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD21
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD25
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD29
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD33
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD37
+INFO: [VRFC 10-311] analyzing module mult_fabric_HD9
+INFO: [VRFC 10-311] analyzing module simulator
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD10
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD14
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD18
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD22
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD26
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD30
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD34
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_HD38
+INFO: [VRFC 10-311] analyzing module mult_fabricluts
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD12
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD16
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD20
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD24
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD28
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD32
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD36
+INFO: [VRFC 10-311] analyzing module mult_fabricluts_HD40
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD11
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD15
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD19
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD23
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD27
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD31
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD35
+INFO: [VRFC 10-311] analyzing module mult_fabricmult_gen_v12_0_12_viv_HD39
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/genMultSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genMultSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/genAdderSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genAdderSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/compCoreSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity compCoreSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/convSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity convSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cAdderParam
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/fabricAdderTest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fabricAdderTest
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/dspOddAdderTest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dspOddAdderTest
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/fabricCompSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fabricCompSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/coreFabricCompSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity coreFabricCompSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/ChipSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ChipSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sim_1/new/fullSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fullSimu

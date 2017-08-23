@@ -1,0 +1,14 @@
+0.6
+2016.3
+Oct 10 2016
+19:19:53
+/home/elbadri/Multiplier_beta/Multiplier_beta.sim/sim_1/synth/timing/coreFabricCompSimu_time_synth.v,1489053346,verilog,,,,fabric_comp;glbl,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd,1488877938,vhdl,,,,cadderparam,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/compCoreSimu.vhd,1488877938,vhdl,,,,compcoresimu,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/convSimu.vhd,1488967252,vhdl,,,,convsimu,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/coreFabricCompSimu.vhd,1489053220,vhdl,,,,corefabriccompsimu,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/dspOddAdderTest.vhd,1488900999,vhdl,,,,dspoddaddertest,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/fabricAdderTest.vhd,1488881242,vhdl,,,,fabricaddertest,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/fabricCompSimu.vhd,1489051863,vhdl,,,,fabriccompsimu,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genAdderSimu.vhd,1488877938,vhdl,,,,genaddersimu,,,,,,,,
+/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genMultSimu.vhd,1488877938,vhdl,,,,genmultsimu,,,,,,,,

@@ -1,0 +1,24 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.3/bin/unwrapped/lnx64.o/xelab -wto 18d4734f5bd84371b44306f1a06a3111 --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot coreFabricCompSimu_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.coreFabricCompSimu xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "coreFabricCompSimu_time_synth.sdf", for root module "coreFabricCompSimu/testComp".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "coreFabricCompSimu_time_synth.sdf", for root module "coreFabricCompSimu/testComp".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.fabric_comp
+Compiling architecture behavioral of entity xil_defaultlib.corefabriccompsimu
+Built simulation snapshot coreFabricCompSimu_time_synth

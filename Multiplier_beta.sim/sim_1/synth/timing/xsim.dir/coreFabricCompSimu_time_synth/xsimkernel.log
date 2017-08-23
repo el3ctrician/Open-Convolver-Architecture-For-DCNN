@@ -1,0 +1,7 @@
+Running: xsim.dir/coreFabricCompSimu_time_synth/xsimk -simmode gui -wdb coreFabricCompSimu_time_synth.wdb -simrunnum 0 -socket 57698
+Design successfully loaded
+Design Loading Memory Usage: 49756 KB (Peak: 49824 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 139696 KB (Peak: 197032 KB)
+Simulation CPU Usage: 50 ms

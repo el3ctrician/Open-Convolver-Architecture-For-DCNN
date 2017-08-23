@@ -1,0 +1,11 @@
+set_property SRC_FILE_INFO {cfile:/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/nexys4.xdc rfile:../../../nexys4.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33} [get_ports CLK]
+set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN J15 IOSTANDARD LVCMOS33} [get_ports start]
+set_property src_info {type:XDC file:1 line:33 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS33} [get_ports R]
+set_property src_info {type:XDC file:1 line:34 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN K15 IOSTANDARD LVCMOS33} [get_ports CO]
+set_property src_info {type:XDC file:1 line:538 export:INPUT save:INPUT read:READ} [current_design]
+set_switching_activity -deassert_resets

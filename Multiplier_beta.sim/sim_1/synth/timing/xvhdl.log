@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genMultSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genMultSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genAdderSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genAdderSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/compCoreSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity compCoreSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/convSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity convSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cAdderParam
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/fabricAdderTest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fabricAdderTest
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/dspOddAdderTest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dspOddAdderTest
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/fabricCompSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fabricCompSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/coreFabricCompSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity coreFabricCompSimu

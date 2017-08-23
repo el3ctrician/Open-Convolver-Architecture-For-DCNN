@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.sim/sim_1/impl/func/cAdderParam_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cAddrWrapperTest
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genMultSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genMultSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/genAdderSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity genAdderSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/compCoreSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity compCoreSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/convSimu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity convSimu
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-149] 'customtools' is not compiled in library xil_defaultlib [/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd:6]
+INFO: [VRFC 10-307] analyzing entity cAdderParam
+ERROR: [VRFC 10-1504] unit cadderparam ignored due to previous errors [/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd:17]
+INFO: [VRFC 10-240] VHDL file /home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd ignored due to errors

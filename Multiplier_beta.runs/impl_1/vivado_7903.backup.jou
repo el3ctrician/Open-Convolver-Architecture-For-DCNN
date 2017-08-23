@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Jan 25 12:08:27 2017
+# Process ID: 7903
+# Current directory: /home/el3ctrician/Desktop/Tesi/Multiplier_beta/Multiplier_beta.runs/impl_1
+# Command line: vivado -log gen_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gen_adder.tcl -notrace
+# Log file: /home/el3ctrician/Desktop/Tesi/Multiplier_beta/Multiplier_beta.runs/impl_1/gen_adder.vdi
+# Journal file: /home/el3ctrician/Desktop/Tesi/Multiplier_beta/Multiplier_beta.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source gen_adder.tcl -notrace

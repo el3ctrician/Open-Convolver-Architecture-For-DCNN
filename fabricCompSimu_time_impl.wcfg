@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fabricCompSimu_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="fabricCompSimu" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="92347000fs"></ZoomStartTime>
+      <ZoomEndTime time="136797001fs"></ZoomEndTime>
+      <Cursor1Time time="127509000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="398"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="vbus" fp_name="vbus52">
+      <obj_property name="label">image</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d0_IBUF">
+         <obj_property name="ElementShortName">d0_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d0_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d10_IBUF">
+         <obj_property name="ElementShortName">d10_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d10_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d11_IBUF">
+         <obj_property name="ElementShortName">d11_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d11_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d12_IBUF">
+         <obj_property name="ElementShortName">d12_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d12_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d13_IBUF">
+         <obj_property name="ElementShortName">d13_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d13_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d14_IBUF">
+         <obj_property name="ElementShortName">d14_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d14_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d15_IBUF">
+         <obj_property name="ElementShortName">d15_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d15_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d16_IBUF">
+         <obj_property name="ElementShortName">d16_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d16_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d17_IBUF">
+         <obj_property name="ElementShortName">d17_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d17_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d18_IBUF">
+         <obj_property name="ElementShortName">d18_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d18_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d19_IBUF">
+         <obj_property name="ElementShortName">d19_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d19_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d1_IBUF">
+         <obj_property name="ElementShortName">d1_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d1_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d20_IBUF">
+         <obj_property name="ElementShortName">d20_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d20_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d21_IBUF">
+         <obj_property name="ElementShortName">d21_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d21_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d22_IBUF">
+         <obj_property name="ElementShortName">d22_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d22_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d23_IBUF">
+         <obj_property name="ElementShortName">d23_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d23_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d24_IBUF">
+         <obj_property name="ElementShortName">d24_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d24_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d2_IBUF">
+         <obj_property name="ElementShortName">d2_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d2_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d3_IBUF">
+         <obj_property name="ElementShortName">d3_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d3_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d4_IBUF">
+         <obj_property name="ElementShortName">d4_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d4_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d5_IBUF">
+         <obj_property name="ElementShortName">d5_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d5_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d6_IBUF">
+         <obj_property name="ElementShortName">d6_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d6_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d7_IBUF">
+         <obj_property name="ElementShortName">d7_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d7_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d8_IBUF">
+         <obj_property name="ElementShortName">d8_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d8_IBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/d9_IBUF">
+         <obj_property name="ElementShortName">d9_IBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">d9_IBUF[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/fabricCompSimu/test/comp5/R5_OBUF">
+      <obj_property name="ElementShortName">R5_OBUF[5:0]</obj_property>
+      <obj_property name="ObjectShortName">R5_OBUF[5:0]</obj_property>
+   </wvobject>
+</wave_config>

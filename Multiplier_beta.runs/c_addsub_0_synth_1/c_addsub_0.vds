@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Mar 10 17:56:06 2017
+# Process ID: 2657
+# Current directory: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/c_addsub_0_synth_1
+# Command line: vivado -log c_addsub_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_addsub_0.tcl
+# Log file: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/c_addsub_0_synth_1/c_addsub_0.vds
+# Journal file: /home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/c_addsub_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source c_addsub_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP c_addsub_0, cache-ID = 966c6a72a506778e.

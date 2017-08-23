@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="DSP_Mult_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1489164964">
+  <File Type="RDS-PROPCONSTRS" Name="DSP_Mult_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="DSP_Mult_utilization_synth.rpt"/>
+  <File Type="RDS-RDS" Name="DSP_Mult.vds"/>
+  <File Type="VDS-TIMING-PB" Name="DSP_Mult_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="DSP_Mult.tcl"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="DSP_Mult_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="DSP_Mult.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="DSP_Mult_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DSP_Mult">
+    <File Path="$PSRCDIR/sources_1/ip/DSP_Mult/DSP_Mult.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DSP_Mult"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DSP_Mult">
+    <File Path="$PSRCDIR/sources_1/ip/DSP_Mult/DSP_Mult.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DSP_Mult"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="DSP_Mult_synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/DSP_Mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c_addsub_0_synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/c_addsub_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sub_synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/sub_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xbip_dsp48_macro_0_synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/xbip_dsp48_macro_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_fabric_synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/mult_fabric_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/elbadri/Multiplier_beta_0.1/Multiplier_beta_0.1/Multiplier_beta.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="DSP_Mult_synth_1"/>
+		<Parent Id="c_addsub_0_synth_1"/>
+		<Parent Id="sub_synth_1"/>
+		<Parent Id="xbip_dsp48_macro_0_synth_1"/>
+		<Parent Id="mult_fabric_synth_1"/>
+	</Run>
+</Runs>
+

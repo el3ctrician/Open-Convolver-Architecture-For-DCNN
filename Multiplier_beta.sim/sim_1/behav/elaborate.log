@@ -1,0 +1,41 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.3/bin/unwrapped/lnx64.o/xelab -wto 18d4734f5bd84371b44306f1a06a3111 --debug typical --relax --mt 8 -L xbip_utils_v3_0_7 -L xbip_pipe_v3_0_3 -L xbip_bram18k_v3_0_3 -L mult_gen_v12_0_12 -L xil_defaultlib -L c_reg_fd_v12_0_3 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_3 -L xbip_addsub_v3_0_3 -L c_addsub_v12_0_10 -L xbip_dsp48_macro_v3_0_13 -L secureip -L xpm --snapshot fullSimu_behav xil_defaultlib.fullSimu -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.customtools
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_viv_comp
+Compiling package xbip_utils_v3_0_7.xbip_utils_v3_0_7_pkg
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_12.dsp_pkg
+Compiling architecture behavioral of entity xil_defaultlib.Dreg [dreg_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.delay_line [\delay_line(c_xdevicefamily="art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.dsp [\dsp(c_xdevicefamily="artix7",c_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12_viv [\mult_gen_v12_0_12_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12 [\mult_gen_v12_0_12(c_xdevicefami...]
+Compiling architecture dsp_mult_arch of entity xil_defaultlib.DSP_Mult [dsp_mult_default]
+Compiling architecture struct of entity xil_defaultlib.gen_mult [gen_mult_default]
+Compiling architecture behavioral of entity xil_defaultlib.fabricAdder [fabricadder_default]
+Compiling architecture struct of entity xil_defaultlib.convolution [convolution_default]
+Compiling architecture behavioral of entity xil_defaultlib.genOR [\genOR(n=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.fabric_comp [fabric_comp_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator [comparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dreg [\Dreg(reg_width=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.Dreg [\Dreg(reg_width=20)\]
+Compiling architecture struct of entity xil_defaultlib.chip [chip_default]
+Compiling architecture rtl of entity xil_defaultlib.lfsr [lfsr_default]
+Compiling architecture behavioral of entity xil_defaultlib.simulator [simulator_default]
+Compiling architecture behavioral of entity xil_defaultlib.fullsimu
+Built simulation snapshot fullSimu_behav

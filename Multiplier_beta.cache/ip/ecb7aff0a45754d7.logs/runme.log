@@ -1,0 +1,38 @@
+
+*** Running vivado
+    with args -log c_addsub_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_addsub_1.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source c_addsub_1.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1103.984 ; gain = 193.301 ; free physical = 1252 ; free virtual = 23335
+INFO: [Synth 8-638] synthesizing module 'c_addsub_1' [/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sources_1/ip/c_addsub_1/synth/c_addsub_1.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_1' (8#1) [/home/elbadri/Multiplier_beta/Multiplier_beta.srcs/sources_1/ip/c_addsub_1/synth/c_addsub_1.vhd:67]
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1148.457 ; gain = 237.773 ; free physical = 1206 ; free virtual = 23289
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1148.457 ; gain = 237.773 ; free physical = 1206 ; free virtual = 23289
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1156.457 ; gain = 245.773 ; free physical = 1205 ; free virtual = 23289
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1164.465 ; gain = 253.781 ; free physical = 1198 ; free virtual = 23282
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1240.957 ; gain = 330.273 ; free physical = 1124 ; free virtual = 23208
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1240.957 ; gain = 330.273 ; free physical = 1124 ; free virtual = 23208
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1248.961 ; gain = 338.277 ; free physical = 1116 ; free virtual = 23200
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |     1|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1248.965 ; gain = 338.281 ; free physical = 1116 ; free virtual = 23200
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1353.809 ; gain = 330.406 ; free physical = 1038 ; free virtual = 23122
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1774.285 ; gain = 420.477 ; free physical = 711 ; free virtual = 22795

@@ -1,0 +1,698 @@
+
+*** Running vivado
+    with args -log simulator.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source simulator.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source simulator.tcl -notrace
+Command: synth_design -top simulator -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2611 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1053.148 ; gain = 145.301 ; free physical = 117 ; free virtual = 3282
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'simulator' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:14]
+INFO: [Synth 8-3491] module 'chip' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:5' bound to instance 'core' of component 'chip' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'chip' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:31]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD0' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dreg' (1#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD1' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:100]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD2' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:101]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD3' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:102]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD4' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:103]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD5' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:104]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD6' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:105]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD7' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:106]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerD8' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:107]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK0' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:109]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK1' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:110]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK2' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:111]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK3' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:112]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK4' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:113]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK5' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:114]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK6' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:115]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK7' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:116]
+	Parameter reg_width bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerK8' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:117]
+	Parameter matrix_size bound to: 3 - type: integer 
+	Parameter dsp_usage bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'convolution' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:5' bound to instance 'coreConv' of component 'convolution' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'convolution' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:20]
+	Parameter matrix_size bound to: 3 - type: integer 
+	Parameter dsp_usage bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:14]
+INFO: [Synth 8-3491] module 'mult_fabric' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/realtime/mult_fabric_stub.vhdl:5' bound to instance 'mult' of component 'mult_fabric' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'mult_fabric' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/realtime/mult_fabric_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fabric_mult' (2#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:14]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+INFO: [Synth 8-3491] module 'fabric_mult' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:5' bound to instance 'mult_in_fabric' of component 'fabric_mult' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:152]
+	Parameter matrix_size bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'fabricAdder' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabricAdder.vhd:6' bound to instance 'addr_fabric' of component 'fabricAdder' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'fabricAdder' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabricAdder.vhd:15]
+	Parameter matrix_size bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fabricAdder' (3#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabricAdder.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'convolution' (4#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/convolution.vhd:20]
+	Parameter matrix_width bound to: 3 - type: integer 
+	Parameter dsp_usage bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'comparator' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:6' bound to instance 'coreComp' of component 'comparator' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'comparator' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:18]
+	Parameter matrix_width bound to: 3 - type: integer 
+	Parameter dsp_usage bound to: 0 - type: integer 
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'genOR' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:5' bound to instance 'hOr' of component 'genOR' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'genOR' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+	Parameter n bound to: 2 - type: integer 
+WARNING: [Synth 8-614] signal 'case0' is read in the process but is not in the sensitivity list [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'genOR' (5#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'genOR' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:5' bound to instance 'vOr' of component 'genOR' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:71]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'fabric_comp' (6#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:14]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:89]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:93]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:96]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:101]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:112]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:123]
+INFO: [Synth 8-3491] module 'fabric_comp' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_comp.vhd:6' bound to instance 'fabricComp' of component 'fabric_comp' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (7#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/comparator.vhd:18]
+	Parameter reg_width bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerR' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'Dreg__parameterized18' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+	Parameter reg_width bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dreg__parameterized18' (7#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+	Parameter reg_width bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'Dreg' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:6' bound to instance 'registerCO' of component 'Dreg' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'Dreg__parameterized20' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+	Parameter reg_width bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dreg__parameterized20' (7#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/Dreg.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'chip' (8#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/chip.vhd:31]
+	Parameter seed bound to: 120 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D0gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 120 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D1gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized1' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized1' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D2gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized3' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized3' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 35 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D3gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized5' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 35 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized5' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 45 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D4gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized7' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 45 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized7' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 170 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D5gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized9' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 170 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized9' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 210 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D6gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized11' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 210 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized11' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 250 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D7gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized13' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 250 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized13' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 75 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'D8gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized15' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 75 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized15' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 28 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K0gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized17' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 28 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized17' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 48 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K1gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized19' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 48 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized19' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 91 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K2gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized21' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 91 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized21' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 29 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K3gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized23' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 29 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized23' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 123 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K4gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized25' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 123 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized25' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 132 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K5gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized27' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 132 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized27' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 198 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K6gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized29' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 198 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized29' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 197 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K7gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized31' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 197 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized31' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 196 - type: integer 
+INFO: [Synth 8-3491] module 'lfsr' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:11' bound to instance 'K8gen' of component 'lfsr' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'lfsr__parameterized33' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter seed bound to: 196 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lfsr__parameterized33' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/LFSR.vhd:24]
+	Parameter n bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'genOR' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:5' bound to instance 'ROor' of component 'genOR' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'genOR__parameterized2' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+	Parameter n bound to: 6 - type: integer 
+WARNING: [Synth 8-614] signal 'case0' is read in the process but is not in the sensitivity list [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'genOR__parameterized2' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'genOR' declared at '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:5' bound to instance 'COor' of component 'genOR' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'genOR__parameterized4' [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+	Parameter n bound to: 20 - type: integer 
+WARNING: [Synth 8-614] signal 'case0' is read in the process but is not in the sensitivity list [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'genOR__parameterized4' (9#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/genOR.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'simulator' (10#1) [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/simulator.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1095.617 ; gain = 187.770 ; free physical = 122 ; free virtual = 3238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1095.617 ; gain = 187.770 ; free physical = 122 ; free virtual = 3239
+---------------------------------------------------------------------------------
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'mult_fabric' instantiated as 'core/coreConv/noDsp.MULTS[0].mult_in_fabric/mult'. 9 instances of this cell are unresolved black boxes. [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.srcs/sources_1/new/fabric_mult.vhd:28]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[0].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[0].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[1].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[1].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[2].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[2].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[3].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[3].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[4].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[4].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[5].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[5].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[6].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[6].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[7].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[7].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[8].mult_in_fabric/mult'
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/.Xil/Vivado-2607-el3ctroarch/dcp_5/mult_fabric_in_context.xdc] for cell 'core/coreConv/noDsp.MULTS[8].mult_in_fabric/mult'
+Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/nexys4.xdc]
+Finished Parsing XDC File [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/nexys4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/nexys4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/simulator_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/simulator_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1452.016 ; gain = 0.000 ; free physical = 102 ; free virtual = 3061
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 102 ; free virtual = 3061
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 3061
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 3061
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "output" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "output" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 119 ; free virtual = 3051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input     20 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 36    
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Dreg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module fabricAdder 
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input     20 Bit       Adders := 1     
+Module genOR 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Dreg__parameterized18 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+Module Dreg__parameterized20 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+Module lfsr 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized7 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized9 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized11 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized13 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized15 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized17 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized19 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized21 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized23 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized25 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized27 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized29 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized31 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module lfsr__parameterized33 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module genOR__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module genOR__parameterized4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "COor/output" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 104 ; free virtual = 3036
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 105 ; free virtual = 3009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 106 ; free virtual = 3000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 2983
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 103 ; free virtual = 2984
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 103 ; free virtual = 2984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 102 ; free virtual = 2984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 102 ; free virtual = 2984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 2984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 2984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |mult_fabric   |         9|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |mult_fabric_bbox     |     1|
+|2     |mult_fabric_bbox__10 |     1|
+|3     |mult_fabric_bbox__11 |     1|
+|4     |mult_fabric_bbox__12 |     1|
+|5     |mult_fabric_bbox__13 |     1|
+|6     |mult_fabric_bbox__14 |     1|
+|7     |mult_fabric_bbox__15 |     1|
+|8     |mult_fabric_bbox__16 |     1|
+|9     |mult_fabric_bbox__9  |     1|
+|10    |BUFG                 |     1|
+|11    |CARRY4               |    28|
+|12    |LUT2                 |    20|
+|13    |LUT3                 |    71|
+|14    |LUT4                 |   126|
+|15    |LUT5                 |     1|
+|16    |LUT6                 |     4|
+|17    |FDRE                 |   314|
+|18    |IBUF                 |     2|
+|19    |OBUF                 |     2|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------------------+----------------------+------+
+|      |Instance                                                    |Module                |Cells |
++------+------------------------------------------------------------+----------------------+------+
+|1     |top                                                         |                      |   713|
+|2     |  COor                                                      |genOR__parameterized4 |     4|
+|3     |  D0gen                                                     |lfsr                  |     9|
+|4     |  D1gen                                                     |lfsr__parameterized1  |     9|
+|5     |  D2gen                                                     |lfsr__parameterized3  |     9|
+|6     |  D3gen                                                     |lfsr__parameterized5  |     9|
+|7     |  D4gen                                                     |lfsr__parameterized7  |     9|
+|8     |  D5gen                                                     |lfsr__parameterized9  |     9|
+|9     |  D6gen                                                     |lfsr__parameterized11 |     9|
+|10    |  D7gen                                                     |lfsr__parameterized13 |     9|
+|11    |  D8gen                                                     |lfsr__parameterized15 |     9|
+|12    |  K0gen                                                     |lfsr__parameterized17 |     9|
+|13    |  K1gen                                                     |lfsr__parameterized19 |     9|
+|14    |  K2gen                                                     |lfsr__parameterized21 |     9|
+|15    |  K3gen                                                     |lfsr__parameterized23 |     9|
+|16    |  K4gen                                                     |lfsr__parameterized25 |     9|
+|17    |  K5gen                                                     |lfsr__parameterized27 |     9|
+|18    |  K6gen                                                     |lfsr__parameterized29 |     9|
+|19    |  K7gen                                                     |lfsr__parameterized31 |     9|
+|20    |  K8gen                                                     |lfsr__parameterized33 |     9|
+|21    |  ROor                                                      |genOR__parameterized2 |     1|
+|22    |  core                                                      |chip                  |   541|
+|23    |    coreComp                                                |comparator            |     8|
+|24    |      \noDsp.horLeft[0].fabricComp                          |fabric_comp           |     1|
+|25    |      \noDsp.horRight[2].fabricComp                         |fabric_comp_25        |     1|
+|26    |      \noDsp.northEastRow[0].northEast[2].First.fabricComp  |fabric_comp_26        |     1|
+|27    |      \noDsp.northWestRow[0].northWest[0].First.fabricComp  |fabric_comp_27        |     1|
+|28    |      \noDsp.southEastRow[2].southEast[2].First.fabricComp  |fabric_comp_28        |     1|
+|29    |      \noDsp.southWestRow[2].southWest[0].First.fabricComp  |fabric_comp_29        |     1|
+|30    |      \noDsp.verticaldown[2].fabricComp                     |fabric_comp_30        |     1|
+|31    |      \noDsp.verticalup[0].fabricComp                       |fabric_comp_31        |     1|
+|32    |    coreConv                                                |convolution           |   297|
+|33    |      \noDsp.MULTS[0].mult_in_fabric                        |fabric_mult           |    16|
+|34    |      \noDsp.MULTS[1].mult_in_fabric                        |fabric_mult_17        |    16|
+|35    |      \noDsp.MULTS[2].mult_in_fabric                        |fabric_mult_18        |    16|
+|36    |      \noDsp.MULTS[3].mult_in_fabric                        |fabric_mult_19        |    16|
+|37    |      \noDsp.MULTS[4].mult_in_fabric                        |fabric_mult_20        |    16|
+|38    |      \noDsp.MULTS[5].mult_in_fabric                        |fabric_mult_21        |    16|
+|39    |      \noDsp.MULTS[6].mult_in_fabric                        |fabric_mult_22        |    16|
+|40    |      \noDsp.MULTS[7].mult_in_fabric                        |fabric_mult_23        |    16|
+|41    |      \noDsp.MULTS[8].mult_in_fabric                        |fabric_mult_24        |    16|
+|42    |      \noDsp.addr_fabric                                    |fabricAdder           |   153|
+|43    |    registerCO                                              |Dreg__parameterized20 |    20|
+|44    |    registerD0                                              |Dreg                  |     8|
+|45    |    registerD1                                              |Dreg_0                |     8|
+|46    |    registerD2                                              |Dreg_1                |     8|
+|47    |    registerD3                                              |Dreg_2                |     8|
+|48    |    registerD4                                              |Dreg_3                |    74|
+|49    |    registerD5                                              |Dreg_4                |     8|
+|50    |    registerD6                                              |Dreg_5                |     8|
+|51    |    registerD7                                              |Dreg_6                |     8|
+|52    |    registerD8                                              |Dreg_7                |     8|
+|53    |    registerK0                                              |Dreg_8                |     8|
+|54    |    registerK1                                              |Dreg_9                |     8|
+|55    |    registerK2                                              |Dreg_10               |     8|
+|56    |    registerK3                                              |Dreg_11               |     8|
+|57    |    registerK4                                              |Dreg_12               |     8|
+|58    |    registerK5                                              |Dreg_13               |     8|
+|59    |    registerK6                                              |Dreg_14               |     8|
+|60    |    registerK7                                              |Dreg_15               |     8|
+|61    |    registerK8                                              |Dreg_16               |     8|
+|62    |    registerR                                               |Dreg__parameterized18 |     6|
++------+------------------------------------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 1452.016 ; gain = 544.168 ; free physical = 101 ; free virtual = 2984
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1452.016 ; gain = 88.465 ; free physical = 109 ; free virtual = 2983
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 1452.023 ; gain = 544.176 ; free physical = 109 ; free virtual = 2983
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+166 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 1452.023 ; gain = 457.457 ; free physical = 123 ; free virtual = 2987
+INFO: [Common 17-1381] The checkpoint '/home/el3ctrician/Desktop/Tesi/Dropbox/Multiplier_beta_0.2/Multiplier_beta_0.1/Multiplier_beta_0.2/Multiplier_beta.runs/synth_1/simulator.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.71 . Memory (MB): peak = 1476.027 ; gain = 0.000 ; free physical = 117 ; free virtual = 2986
+INFO: [Common 17-206] Exiting Vivado at Fri May 12 20:26:34 2017...

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "cAdderParam_func_impl.vhd"
+vhdl xil_defaultlib  "../../../../Multiplier_beta.srcs/sim_1/new/genMultSimu.vhd"
+vhdl xil_defaultlib  "../../../../Multiplier_beta.srcs/sim_1/new/genAdderSimu.vhd"
+vhdl xil_defaultlib  "../../../../Multiplier_beta.srcs/sim_1/new/compCoreSimu.vhd"
+vhdl xil_defaultlib  "../../../../Multiplier_beta.srcs/sim_1/new/convSimu.vhd"
+vhdl xil_defaultlib  "../../../../Multiplier_beta.srcs/sim_1/new/cAdderParam.vhd"
+
+# Do not sort compile order
+nosort
