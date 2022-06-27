@@ -1,0 +1,14 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Open Convolver Architecture for DCNN
+message: >-
+  an open architecture than can be used to build a
+  CNN accelerator
+type: software
+authors:
+  - given-names: Ahmad
+    family-names: Elbadri
+    email: elbadriahmad@gmail.com
+    affiliation: University of Calabria
